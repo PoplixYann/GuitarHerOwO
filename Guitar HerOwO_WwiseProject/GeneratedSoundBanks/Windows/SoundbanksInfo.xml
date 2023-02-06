@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\__SVN__\Prog2\Perso\Cours\Projets\Guitar HerOwO\Guitar HerOwO_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\__SVN__\Prog2\Perso\Cours\Projets\Guitar HerOwO\Guitar HerOwO_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\__SVN__\Prog2\Perso\Cours\Projets\Guitar HerOwO\Guitar HerOwO_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\__SVN__\Prog2\Perso\Cours\Projets\Guitar HerOwO\Guitar HerOwO_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1049063837" Language="SFX" Hash="1614979186">
+			<ObjectPath>\SoundBanks\Default Work Unit\GeneralBank</ObjectPath>
+			<ShortName>GeneralBank</ShortName>
+			<Path>GeneralBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1894471658" Name="Play_MainSong" ObjectPath="\Events\Default Work Unit\Play_MainSong" DurationType="OneShot" DurationMin="96.093765" DurationMax="96.093765">
+					<IncludedMemoryFiles>
+						<File Id="88534591" Language="SFX">
+							<ShortName>Bass_not_that_bad.wav</ShortName>
+							<Path>SFX\Bass_not_that_bad_10C4C929.wem</Path>
+						</File>
+						<File Id="240745077" Language="SFX">
+							<ShortName>Bass_Good.wav</ShortName>
+							<Path>SFX\Bass_Good_10C4C929.wem</Path>
+						</File>
+						<File Id="300774916" Language="SFX">
+							<ShortName>Bass_bad.wav</ShortName>
+							<Path>SFX\Bass_bad_10C4C929.wem</Path>
+						</File>
+						<File Id="368219035" Language="SFX">
+							<ShortName>Guitar_not_that_bad.wav</ShortName>
+							<Path>SFX\Guitar_not_that_bad_10C4C929.wem</Path>
+						</File>
+						<File Id="417075150" Language="SFX">
+							<ShortName>Organ_bad.wav</ShortName>
+							<Path>SFX\Organ_bad_10C4C929.wem</Path>
+						</File>
+						<File Id="466122805" Language="SFX">
+							<ShortName>Drum_bad.wav</ShortName>
+							<Path>SFX\Drum_bad_10C4C929.wem</Path>
+						</File>
+						<File Id="519832026" Language="SFX">
+							<ShortName>Bass_go_to_hell_plz.wav</ShortName>
+							<Path>SFX\Bass_go_to_hell_plz_10C4C929.wem</Path>
+						</File>
+						<File Id="754923019" Language="SFX">
+							<ShortName>Lead_GREEAAAAAT.wav</ShortName>
+							<Path>SFX\Lead_GREEAAAAAT_10C4C929.wem</Path>
+						</File>
+						<File Id="757907320" Language="SFX">
+							<ShortName>Guitar_bad.wav</ShortName>
+							<Path>SFX\Guitar_bad_10C4C929.wem</Path>
+						</File>
+						<File Id="783344683" Language="SFX">
+							<ShortName>Drum_go_to_hell_plz.wav</ShortName>
+							<Path>SFX\Drum_go_to_hell_plz_10C4C929.wem</Path>
+						</File>
+						<File Id="800665100" Language="SFX">
+							<ShortName>Organ_Good.wav</ShortName>
+							<Path>SFX\Organ_Good_10C4C929.wem</Path>
+						</File>
+						<File Id="801514549" Language="SFX">
+							<ShortName>Organ_go_to_hell_plz.wav</ShortName>
+							<Path>SFX\Organ_go_to_hell_plz_10C4C929.wem</Path>
+						</File>
+						<File Id="812293506" Language="SFX">
+							<ShortName>Drum_not_that_bad.wav</ShortName>
+							<Path>SFX\Drum_not_that_bad_10C4C929.wem</Path>
+						</File>
+						<File Id="953880359" Language="SFX">
+							<ShortName>Guitar_go_to_hell_plz.wav</ShortName>
+							<Path>SFX\Guitar_go_to_hell_plz_10C4C929.wem</Path>
+						</File>
+						<File Id="974956906" Language="SFX">
+							<ShortName>Organ_not_that_bad.wav</ShortName>
+							<Path>SFX\Organ_not_that_bad_10C4C929.wem</Path>
+						</File>
+						<File Id="1026203727" Language="SFX">
+							<ShortName>Guitar_Good.wav</ShortName>
+							<Path>SFX\Guitar_Good_10C4C929.wem</Path>
+						</File>
+						<File Id="1064383040" Language="SFX">
+							<ShortName>Drum_Good.wav</ShortName>
+							<Path>SFX\Drum_Good_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="803067873" Name="Score_Red" ObjectPath="\Game Parameters\Default Work Unit\Score_Red"/>
+				<GameParameter Id="2053900108" Name="Score_Yellow" ObjectPath="\Game Parameters\Default Work Unit\Score_Yellow"/>
+				<GameParameter Id="2434594552" Name="Score_Blue" ObjectPath="\Game Parameters\Default Work Unit\Score_Blue"/>
+				<GameParameter Id="3087840725" Name="Score_Green" ObjectPath="\Game Parameters\Default Work Unit\Score_Green"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1818747454">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

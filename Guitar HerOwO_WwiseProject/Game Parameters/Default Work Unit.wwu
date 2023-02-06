@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{854E1315-D910-4683-BD93-380888B81654}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{854E1315-D910-4683-BD93-380888B81654}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Score_Red" ID="{D9E9D3D7-DF33-402F-ADE6-9BB7EA80EF37}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="900"/>
+						<Property Name="Max" Type="Real64" Value="1000"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Score_Yellow" ID="{AEABE8B9-F916-40AE-9966-4584EC47FB2A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="900"/>
+						<Property Name="Max" Type="Real64" Value="1000"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Score_Green" ID="{D2AB5A99-AD1F-48DE-989F-B06191115F49}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="900"/>
+						<Property Name="Max" Type="Real64" Value="1000"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Score_Blue" ID="{16B6E09E-17BD-477B-A827-6ECF9801A579}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="900"/>
+						<Property Name="Max" Type="Real64" Value="1000"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

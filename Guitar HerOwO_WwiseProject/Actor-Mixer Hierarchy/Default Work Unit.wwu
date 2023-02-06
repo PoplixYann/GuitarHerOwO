@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5AB1AD85-A039-4A4B-9C9E-BB538E226FFD}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{5AB1AD85-A039-4A4B-9C9E-BB538E226FFD}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="MainSong" ID="{55FEEC4E-EAAB-450B-B412-C76FB3E06109}" ShortID="824556993">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Bass_bad" ID="{1AFC552F-ACE5-43E1-9480-CEEF5226CB12}" ShortID="255983252">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{7672A63A-90A4-48B6-887C-16C312F73BEF}" ShortID="983990510">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Red" ID="{D9E9D3D7-DF33-402F-ADE6-9BB7EA80EF37}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3E968827-D52C-4F9C-A576-EA4193BA82F8}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>249.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>250</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>499</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>499.001</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bass_bad" ID="{5FBEF8A8-3285-43EF-91D3-0698C6A2B0F2}">
+									<Language>SFX</Language>
+									<AudioFile>Bass_bad.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="300774916"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Bass_bad" ID="{5FBEF8A8-3285-43EF-91D3-0698C6A2B0F2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bass_Good" ID="{8D88E4AE-8F1F-42D3-8D08-00A514AD3A52}" ShortID="1026275418">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{9FB145D6-CEBB-4EA6-A19F-0392CE333E21}" ShortID="751636139">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Red" ID="{D9E9D3D7-DF33-402F-ADE6-9BB7EA80EF37}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{63D89F96-7937-4B7A-A825-39554B3A21E3}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>749.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>750</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bass_Good" ID="{D3813B5F-8BF7-4195-8F40-4CF59C7A485A}">
+									<Language>SFX</Language>
+									<AudioFile>Bass_Good.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="240745077"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Bass_Good" ID="{D3813B5F-8BF7-4195-8F40-4CF59C7A485A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bass_not_that_bad" ID="{BCB1438E-5ACA-4975-BE2E-381DD6E85F17}" ShortID="761776514">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{C56CDC3A-296C-4F02-AE8B-9A65886AF8FC}" ShortID="929448889">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Red" ID="{D9E9D3D7-DF33-402F-ADE6-9BB7EA80EF37}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F5C73591-7058-49DD-AABC-D59021E0CF17}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>499.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>500</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>749</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>749.001</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bass_not_that_bad" ID="{EF8DF6BB-4609-4814-B9C7-2D3D1A407CB7}">
+									<Language>SFX</Language>
+									<AudioFile>Bass_not_that_bad.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="88534591"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Bass_not_that_bad" ID="{EF8DF6BB-4609-4814-B9C7-2D3D1A407CB7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bass_go_to_hell_plz" ID="{ACBF7EE9-A022-43BB-9997-D564F7C86EA6}" ShortID="104383260">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{F0C4FC90-0160-49B4-9591-3BF998B211A1}" ShortID="277380489">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Red" ID="{D9E9D3D7-DF33-402F-ADE6-9BB7EA80EF37}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{1CC99330-E47D-4EC7-95D0-98608BE6D111}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>249</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>249.001</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bass_go_to_hell_plz" ID="{E70E166C-16AA-43B2-9B4E-BBD4A96DBAA6}">
+									<Language>SFX</Language>
+									<AudioFile>Bass_go_to_hell_plz.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="519832026"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Bass_go_to_hell_plz" ID="{E70E166C-16AA-43B2-9B4E-BBD4A96DBAA6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Lead_GREEAAAAAT" ID="{5C1946A9-CE94-46EA-ABA4-4795280753A4}" ShortID="851063526">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{820B6804-05A9-4097-BE89-518DB5DBD279}" ShortID="1027332331">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Blue" ID="{16B6E09E-17BD-477B-A827-6ECF9801A579}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{AF124542-C885-483D-ACD7-ABF0B7E76282}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>999.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{E3C24960-3C64-408B-807F-5B51C9DDC7FA}" ShortID="916528594">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Green" ID="{D2AB5A99-AD1F-48DE-989F-B06191115F49}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0C4CC0D2-4B04-4A36-9A2C-E54DE2ABED3E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>999.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{CA960B81-29B1-41B1-83D6-EB6FA34A3311}" ShortID="280778296">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Yellow" ID="{AEABE8B9-F916-40AE-9966-4584EC47FB2A}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7F745D4F-D122-49A7-B337-DB094543812E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>999.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{7B5AACAA-0C2D-4A9C-A943-1D47EB3A4700}" ShortID="815100473">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Red" ID="{D9E9D3D7-DF33-402F-ADE6-9BB7EA80EF37}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3F203C22-0BCA-4F57-8A3F-211C8AA66B34}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>999.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lead_GREEAAAAAT" ID="{8A997A94-DC76-425C-A465-A71EDC534128}">
+									<Language>SFX</Language>
+									<AudioFile>Lead_GREEAAAAAT.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="754923019"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Lead_GREEAAAAAT" ID="{8A997A94-DC76-425C-A465-A71EDC534128}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Organ_bad" ID="{24F93610-E6C8-4058-AEFF-D798E8039C48}" ShortID="900843640">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{B0039E75-9CAC-4EFD-B44B-0BDF0958A727}" ShortID="921692616">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Blue" ID="{16B6E09E-17BD-477B-A827-6ECF9801A579}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2CAFBFD7-32FC-47A6-AFF9-D87E4EAF9438}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>249.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>250</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>499</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>499.001</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Organ_bad" ID="{057D9218-370B-4AE3-9561-73AF85B87ACA}">
+									<Language>SFX</Language>
+									<AudioFile>Organ_bad.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="417075150"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Organ_bad" ID="{057D9218-370B-4AE3-9561-73AF85B87ACA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Organ_not_that_bad" ID="{011BCB89-C6AE-4ADD-8CD4-7043A019404C}" ShortID="362246572">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{79F28D08-298C-48DB-8BC2-B1CB7EECB3F5}" ShortID="290878637">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Blue" ID="{16B6E09E-17BD-477B-A827-6ECF9801A579}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7896FBCE-00C3-490F-A370-C603C1A61D35}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>499.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>500</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>749</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>749.001</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Organ_not_that_bad" ID="{57E986E3-EE0E-404C-AA12-CDF95B2B0EE7}">
+									<Language>SFX</Language>
+									<AudioFile>Organ_not_that_bad.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="974956906"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Organ_not_that_bad" ID="{57E986E3-EE0E-404C-AA12-CDF95B2B0EE7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Organ_Good" ID="{3A1EDC5A-180C-4EAC-BA5C-011079417392}" ShortID="17489114">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{D5890AA5-6B95-4DAE-99EF-BDB868449051}" ShortID="119454915">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Blue" ID="{16B6E09E-17BD-477B-A827-6ECF9801A579}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C07E2323-0DEB-47BF-8CC3-A45D01C74679}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>749.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>750</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Organ_Good" ID="{630D9EC1-0141-45AB-A023-3188B279BE6A}">
+									<Language>SFX</Language>
+									<AudioFile>Organ_Good.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="800665100"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Organ_Good" ID="{630D9EC1-0141-45AB-A023-3188B279BE6A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Organ_go_to_hell_plz" ID="{548ED65E-C109-479D-86BB-0B349347B7DD}" ShortID="57881915">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{9CAC20F5-285D-4DE3-9888-BA29DEA68CC2}" ShortID="541277465">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Blue" ID="{16B6E09E-17BD-477B-A827-6ECF9801A579}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{73FC761E-6EAC-49C3-A148-D3D7FF934A31}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>249</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>249.001</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Organ_go_to_hell_plz" ID="{8771E1A8-9DD6-4110-8862-54145DE7863B}">
+									<Language>SFX</Language>
+									<AudioFile>Organ_go_to_hell_plz.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="801514549"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Organ_go_to_hell_plz" ID="{8771E1A8-9DD6-4110-8862-54145DE7863B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Drum_go_to_hell_plz" ID="{05E04D17-F91D-4294-9EFC-15D4EACD7E73}" ShortID="204440245">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{027BD091-50C6-459A-ACE8-7B879BC8FB10}" ShortID="211045348">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Yellow" ID="{AEABE8B9-F916-40AE-9966-4584EC47FB2A}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3F73A997-2690-43ED-9139-B71FAA6984E4}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>249</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>249.001</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Drum_go_to_hell_plz" ID="{544E82F3-A28C-48B8-BA4C-18D5AA5DFE16}">
+									<Language>SFX</Language>
+									<AudioFile>Drum_go_to_hell_plz.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="783344683"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Drum_go_to_hell_plz" ID="{544E82F3-A28C-48B8-BA4C-18D5AA5DFE16}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Drum_bad" ID="{7CC79555-8BEC-4DFE-AB5C-3212212F6CF9}" ShortID="818516618">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{750811AD-A4E3-4867-989D-5637C0F4F48B}" ShortID="273404686">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Yellow" ID="{AEABE8B9-F916-40AE-9966-4584EC47FB2A}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3EECAB0B-E6EC-4C05-88E1-E82A5AEC141A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>249.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>250</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>499</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>499.001</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Drum_bad" ID="{6CE23F33-48F4-4DC6-8A59-7AF89AFEC857}">
+									<Language>SFX</Language>
+									<AudioFile>Drum_bad.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="466122805"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Drum_bad" ID="{6CE23F33-48F4-4DC6-8A59-7AF89AFEC857}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Drum_not_that_bad" ID="{10CBA88D-6C4F-4A30-B248-E43AC62AAE9A}" ShortID="559365751">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{27E7412D-B79B-481A-80A6-923C972754B1}" ShortID="103088435">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Yellow" ID="{AEABE8B9-F916-40AE-9966-4584EC47FB2A}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6269C1D1-4D6C-42E7-ABBE-2246FD8FE58F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>499.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>500</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>749</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>749.001</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Drum_not_that_bad" ID="{6BCFA06F-CDDE-445D-B7BE-AE7566A05D54}">
+									<Language>SFX</Language>
+									<AudioFile>Drum_not_that_bad.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="812293506"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Drum_not_that_bad" ID="{6BCFA06F-CDDE-445D-B7BE-AE7566A05D54}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Drum_Good" ID="{365A7CF2-2219-438D-B3D7-8DF7DD232978}" ShortID="39698248">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{45DC69CA-A1DC-407E-9321-C24E730B7486}" ShortID="615411080">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Yellow" ID="{AEABE8B9-F916-40AE-9966-4584EC47FB2A}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C463DA49-08A1-42F0-BDE4-C939D482036D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>749.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>750</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Drum_Good" ID="{49FF4D27-4BFD-4CDB-987A-1B7C3CBF5C8A}">
+									<Language>SFX</Language>
+									<AudioFile>Drum_Good.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1064383040"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Drum_Good" ID="{49FF4D27-4BFD-4CDB-987A-1B7C3CBF5C8A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Guitar_Good" ID="{07FF35E1-F43D-4507-AAA5-8DB68A7B5B38}" ShortID="630543185">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{09F0BD7A-7714-4BB4-8B17-703C4D3F5015}" ShortID="650869528">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Green" ID="{D2AB5A99-AD1F-48DE-989F-B06191115F49}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B493909B-2C33-483C-AB9E-A56F732F1420}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>749.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>750</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Guitar_Good" ID="{BDB0E569-FFFE-4EBA-9870-347AAE77AFFF}">
+									<Language>SFX</Language>
+									<AudioFile>Guitar_Good.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1026203727"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Guitar_Good" ID="{BDB0E569-FFFE-4EBA-9870-347AAE77AFFF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Guitar_not_that_bad" ID="{1E4529F5-3489-4C60-9354-3698E65FA9A5}" ShortID="470119452">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{4AB9074C-0E2A-4C18-927C-A3F8246AC705}" ShortID="222302716">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Green" ID="{D2AB5A99-AD1F-48DE-989F-B06191115F49}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{EAC09E48-5A80-4E71-8ABE-D4B752C55EBD}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>499.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>500</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>749</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>749.001</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Guitar_not_that_bad" ID="{EC432B28-EF48-4744-BFC6-D00116B68ADD}">
+									<Language>SFX</Language>
+									<AudioFile>Guitar_not_that_bad.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="368219035"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Guitar_not_that_bad" ID="{EC432B28-EF48-4744-BFC6-D00116B68ADD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Guitar_bad" ID="{75A90B85-6FD4-4427-9FFB-3049A208820D}" ShortID="338749607">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{31E42B6F-D4AD-49B6-B863-ABEC6872C3D4}" ShortID="179508267">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Green" ID="{D2AB5A99-AD1F-48DE-989F-B06191115F49}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{FAA9F209-BC47-44C5-9AA2-8FB976F0DE08}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>249.999</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>250</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>499</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>499.001</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Guitar_bad" ID="{F970CE11-0981-433B-8D04-C83DDE9DA480}">
+									<Language>SFX</Language>
+									<AudioFile>Guitar_bad.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="757907320"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Guitar_bad" ID="{F970CE11-0981-433B-8D04-C83DDE9DA480}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Guitar_go_to_hell_plz" ID="{E53E553F-368B-4393-A07D-841F6D8F9B5B}" ShortID="234739527">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{6170B43B-05C5-4035-96CB-8FE022E81C0A}" ShortID="622695654">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Score_Green" ID="{D2AB5A99-AD1F-48DE-989F-B06191115F49}" WorkUnitID="{854E1315-D910-4683-BD93-380888B81654}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{1CD2C164-0F47-43E2-A156-003EBF3ACED3}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>249</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>249.001</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D5BF4EEB-F997-4A67-BD87-CC265D62007E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8122FA7D-4029-4767-8085-EF1700E0BED1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Guitar_go_to_hell_plz" ID="{752DFF75-574A-4DD6-AFC1-C26149DC0046}">
+									<Language>SFX</Language>
+									<AudioFile>Guitar_go_to_hell_plz.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="953880359"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Guitar_go_to_hell_plz" ID="{752DFF75-574A-4DD6-AFC1-C26149DC0046}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
